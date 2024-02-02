@@ -41,6 +41,12 @@ add_action('wp_enqueue_scripts', 'acf_scrips');
 // Theme Options by ACF
 
 
+function xent_acf_json( $path ) {
+    return get_stylesheet_directory() . '/xent-acf-json';
+}
+add_filter( 'acf/settings/save_json', 'xent_acf_json' );
+
+
 function acf_op_init() {
 
     // Check function exists.
