@@ -57,7 +57,19 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
          <div class="container">
-            <a class="navbar-brand" href="<?php echo site_url();?>"><?php echo the_field('header_logo', 'options');?></a>
+            <a class="navbar-brand" href="<?php echo site_url();?>">
+            
+            <?php if (has_custom_logo()) : ?>
+                        <div class="site-logo">
+                        <?php echo the_field('header_logo', 'options');?>
+                        </div>
+                    <?php else : ?>
+                        <h1 class="site-title">
+                            <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+                        </h1>
+            <?php endif; ?>        
+
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span> Menu
             </button>

@@ -54,8 +54,8 @@ function acf_op_init() {
 
         // Register options page.
         $parent = acf_add_options_page(array(
-            'page_title'    => __('Theme Options', 'acf'),
-            'menu_title'    => __('General Settings', 'acf'),
+            'page_title'    => __('Xent Theme Options', 'acf'),
+            'menu_title'    => __('Xent Settings', 'acf'),
             'menu_slug'     => 'theme-general-settings',
             'capability'    => 'edit_posts',
             'redirect'      => false
