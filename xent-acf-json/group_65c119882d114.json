@@ -3,6 +3,23 @@
     "title": "Home Page",
     "fields": [
         {
+            "key": "field_65c3beb3ff08d",
+            "label": "Sliders",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
             "key": "field_65c11989d08fe",
             "label": "Sliders",
             "name": "sliders",
@@ -132,6 +149,23 @@
                     "parent_repeater": "field_65c11989d08fe"
                 }
             ]
+        },
+        {
+            "key": "field_65c3bee1ff08e",
+            "label": "Features",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
         },
         {
             "key": "field_65c26706d37b1",
@@ -413,5 +447,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1707326752
+    "modified": 1707327241
 }
