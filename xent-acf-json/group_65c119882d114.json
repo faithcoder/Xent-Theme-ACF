@@ -218,8 +218,8 @@
         },
         {
             "key": "field_65c267bcd37b4",
-            "label": "Feature List",
-            "name": "feature_list",
+            "label": "Feature Lists",
+            "name": "feature_lists",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -315,7 +315,7 @@
         {
             "key": "field_65c2725be8bf7",
             "label": "Feature List Style",
-            "name": "feature_list_style",
+            "name": "feature_lists_style",
             "aria-label": "",
             "type": "group",
             "instructions": "",
@@ -338,7 +338,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "33",
                         "class": "",
                         "id": ""
                     },
@@ -356,13 +356,41 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "33",
                         "class": "",
                         "id": ""
                     },
                     "default_value": "",
                     "enable_opacity": 0,
                     "return_format": "string"
+                },
+                {
+                    "key": "field_65c3bca6beda5",
+                    "label": "Icon Size",
+                    "name": "icon_size",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "30px": "30px",
+                        "32px": "32px",
+                        "36px": "36px",
+                        "40px": "40px"
+                    },
+                    "default_value": "40px",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": ""
                 }
             ]
         }
@@ -385,5 +413,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1707242185
+    "modified": 1707326752
 }
